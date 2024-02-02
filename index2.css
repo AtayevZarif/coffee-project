@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #F8F8F2;
+}
+
+header{
+    background-color: #F3D7B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #F3D7B7;
+    padding: 10px 50px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 12px;
+    color: #333;
+}
+
+a:hover{
+    color: #6b6b6b;
+    text-decoration: underline ;
+}
+
+a:active{
+    color: #000;
+    text-decoration: none;
+}
+
+.mini_container_head{
+    margin-top: 130px;
+    display: flex;
+    margin-right: 900px;
+    height: 500px;
+    gap: 120px;
+}
+
+.mili_container_head{
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.FS-64px{
+    font-weight: 700;
+    font-size: 64px;
+    font-family: roboto;
+}
+
+.FS-16px{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.mili_container_position{
+    position: relative;
+}
+
+.transform{
+    position: absolute;
+    top: -100px;
+    left: 150px;
+}
+
+.coffee{
+    position: absolute;
+    right: -900px;
+}
+
+.mini_container{
+    display: flex;
+    height: 740px;
+    justify-content: center;
+    gap: 370px;
+}
+
+.cup{
+    width: 370px;
+    height: 360px;
+    margin-top: 160px;
+}
+
+.mili_container_cup{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    margin-top: 160px;
+}
+
+.FS-48px{
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.FS-18px{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mini_container-2{
+    display: flex;
+    background-color: #C99B67;
+    -webkit-text-fill-color: white;
+    justify-content: center;
+    gap: 170px;
+    align-items: center;
+}
+
+.mili_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.FS-50px{
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nigger{
+    position: relative;
+    top: -160px;
+}
+
+footer{
+    background-color: #F3D7B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+}
+
+.mili_container_foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3D7B7;
+    padding: 0px 50px;
+}
+
+.images{
+    display: flex;
+    gap: 30px;
+}
