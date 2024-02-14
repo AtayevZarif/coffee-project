@@ -11,8 +11,6 @@
 header{
     background-color: #F3D7B7;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 nav{
@@ -22,7 +20,8 @@ nav{
     position: fixed;
     top: 0;
     background-color: #F3D7B7;
-    padding: 10px 50px;
+    padding: 20px 50px;
+    z-index: 2;
 }
 
 ul{
@@ -50,9 +49,9 @@ a:active{
 }
 
 .mini_container_head{
-    margin-top: 130px;
+    margin-top: 140px;
     display: flex;
-    margin-right: 900px;
+    justify-content: space-between;
     height: 500px;
     gap: 120px;
 }
@@ -61,6 +60,7 @@ a:active{
     display: flex;
     flex-direction: column;
     gap: 74px;
+    margin-left: 50px;
 }
 
 .FS-64px{
@@ -154,7 +154,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 160px;
+    height: 110px;
 }
 
 .mili_container_foot{
@@ -169,4 +169,77 @@ footer{
 .images{
     display: flex;
     gap: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+    body{
+        width: 100vh;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    header{
+        width: 100vh;
+    }
+
+    ul{
+        gap: 20px;
+    }
+
+    .mini_container_head{
+        background-color: #F3D7B7;
+        height: 700px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content:  start;
+        align-items: end;
+        gap: 100px;
+    }
+
+    .mili_container_head{
+        gap: 25px;
+        margin-left: 200px;
+    }
+
+    .transform{
+        width: 150px;
+        position: absolute;
+        left: -570px;
+        top: -80px;
+    }
+
+    .coffee{
+        width: 600px;
+        position: absolute;
+        left: -500px;
+    }
+
+    .mini_container{
+        width: 100vh;
+        padding: 0px 50px;
+        gap: 50px;
+    }
+
+    .cup{
+        width: 300px;
+        margin-top: 180px;
+    }
+
+    .mili_container_cup{
+        margin-top: 50px;
+    }
+
+    .mini_container-2{
+        height: 1000px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .nigger{
+        width: 600px;
+        position: static;
+    }
 }
